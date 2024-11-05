@@ -13,7 +13,7 @@ export default async function Home() {
         <SingleProduct key={item.id} item={item} />
         ))}
       </div>
-      <Link href="/products" className="text-center mt-12 block font-['font2']">See More</Link>
+      <Link href="/products" className="text-center hover:underline hover:underline-offset-4 mt-12 block font-['font2']">See More</Link>
     </div>
   );
 }

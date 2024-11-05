@@ -1,3 +1,6 @@
+"use client"
+import AddToCart from "../general/addToCart"
+
 const SingleProduct = ({item}) => {
     return(
         <div className="bg-slate-300 dark:bg-slate-700 rounded-xl shadow-sm  h-auto hover:-translate-y-1 hover:scale-105 duration-300">
@@ -7,7 +10,7 @@ const SingleProduct = ({item}) => {
                     <div className="md:text-md text-sm p-1 font-semibold h-24">{item.title}</div>
                     <div className="flex justify-between">
                         <div className="md:text-sm text-xs p-1 mt-1 ml-1 font-semibold text-red-500">${item.price}</div>
-                        <button className="py-2 px-4 bg-green-500 mb-2 shadow-md shadow-green-600 mr-2 font-semibold rounded-xl border-green-800 text-white hover:bg-blue-700 hover:shadow-sm hover:shadow-blue-800 bottom-1">Add To Cart</button>
+                        <AddToCart item={item} />                    
                     </div>
                 </div>
             </div>

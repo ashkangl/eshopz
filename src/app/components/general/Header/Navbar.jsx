@@ -20,9 +20,9 @@ const Navbar = () => {
                 <div className="float-left w-full bg-slate-300 dark:bg-slate-700 dark:text-white font-[font2] px-6 pt-12 shadow-3xl">
                     <button className="absolute top-4 right-4" onClick={handleMenuToggle}><X /></button>
                     <menu>
-                        <li className="mb-2 mt-8 hover:text-blue-500"><Link href="/" onClick={handleLinkClick}>Home Page</Link></li>
-                        <li className="mb-2 hover:text-blue-500"><Link href="/products" onClick={handleLinkClick}>Products</Link></li>
-                        <li className="mb-8 hover:text-blue-500"><Link href="/cart" onClick={handleLinkClick}>Cart</Link></li>
+                        <li className="mb-2 mt-8 hover:underline hover:underline-offset-4"><Link href="/" onClick={handleLinkClick}>Home Page</Link></li>
+                        <li className="mb-2 hover:underline hover:underline-offset-4"><Link href="/products" onClick={handleLinkClick}>Products</Link></li>
+                        <li className="mb-8 hover:underline hover:underline-offset-4"><Link href="/cart" onClick={handleLinkClick}>Cart</Link></li>
                     </menu>
                  </div>
             </div>
