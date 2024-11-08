@@ -10,6 +10,9 @@ You can communicate me ...
 You can use this project by cloning the repository:
 
 git clone https://github.com/ashkangl/eshopz.git
+
 cd eshopz
+
 npm install
+
 npm run dev
